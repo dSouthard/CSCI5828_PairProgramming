@@ -54,7 +54,7 @@
 
 				<section>
 					<h2>Pair Programming</h2>
-					<img height="518" src="images/pearprogramming.png">
+					<img src="images/pearprogramming.png">
 					<h4>Presented by Diana Southard</h4>
           			<p>CSCI 5828, Presentation 2</p>
 				</section>
@@ -76,16 +76,16 @@
 
 				<section>
 					<h2>Introduction</h2>
-					<p> Pair programming is where two programmers develop software side by side at one computer. While they are sitting together, they are continuously collaborating on the same design, problem, line of code, or test. This practice gained popularity due to its result in increased correctness in code (fewer faults per line of code than programming alone) as well as other results discussed in the benefits section of this presentation.</p>
+					<p> Pair programming is where two programmers develop software side by side at one computer. While they are sitting together, they are continuously collaborating on the same design, problem, line of code, or test. This practice gained popularity due to its result in increased correctness in code among other benefits.</p>
 					<img src="images/wordcloud.jpg">
 					</section>
 					
 					<section>
 					<h2>Origins</h2>
-	
+					<p> Pair programming has been around since before Agile was developed. The following is a timeline of its development.</p>
 					<ul>
-						<li><i>1953: </i> From Fred Brooks ("The Mythical Man Month"/"No Silver Bullet"): “Fellow graduate student Bill Wright and I first tried pair programming when I was a grad student. We produced 1500 lines of defect-free code; it ran correctly first try.” </li>
-						<li><i>1992: </i>"Dynamic Duo" is coined by Larry Constantine, reporting on a visit to a compiler vendor started by one of the implementers of C: "At each terminal were two programmers! Of course, only one programmer was actually cutting code at each keyboard, but the others were peering over their shoulders."
+						<li><i>1953: </i> Fred Brooks: “Fellow graduate student Bill Wright and I first tried pair programming when I was a grad student. We produced 1500 lines of defect-free code; it ran correctly first try.” </li>
+						<li><i>1992: </i>"Dynamic Duo" coined by Larry Constantine: "At each terminal were two programmers! Of course, only one programmer was actually cutting code at each keyboard, but the others were peering over their shoulders."
 </li>
 </ul>
 </section>
@@ -109,10 +109,9 @@
 						
 						<li><i>2000: </i>The roles of Driver and Navigator are introduced to help explain pair programming.</li>
 						<li><i>2002: </i>"Pair Programming Illuminated", by Laurie Williams and Robert Kessler, is the first book devoted exclusively to the practice and discusses its theory, practice and the various studies up to that date.</li>
-						<li><i>2003: </i>An anonymous article on the C2 Wiki describes Ping-Pong Programming, a moderately popular variant which marries pairing with test-driven development.
-.</li>
+						<li><i>2003: </i>An anonymous article on the C2 Wiki describes Ping-Pong Programming, a moderately popular variant which marries pairing with test-driven development.</li>
 					</ul>
-					<img src="images/guys.jpg">
+					<img height = 200 src="images/guys.jpg">
 				</section>
 
 				<section>
@@ -120,10 +119,10 @@
 					<ul>
 						<li>While there are two people sitting at a single computer, only one person is actually typing at any one time.</li>
 						<li>The programmer who is writing or typing is called the “driver” while the other programmer is called the “navigator.”</li>
-						<li>While the driver types, the navigator observes: looking for tactical and strategic defects in the driver’s work.</li>
+						<li>While the driver types, the navigator observes, looking for tactical and strategic defects in the driver’s work.</li>
 						<ul>
-						<li><u>Tactical defects</u>: syntax errors, typos, calling the wrong method.</li>
-						<li><u>Strategic defects</u>: when the driver’s implementation/design will ultimately fail to accomplish its goal. </li>
+						<li><u>Tactical defects</u>: syntax errors, typos, calling the wrong method, etc.</li>
+						<li><u>Strategic defects</u>: when the implementation/design will ultimately fail to accomplish its goal. </li>
 						</ul>
 					</ul>
 					</section>
@@ -194,7 +193,7 @@
 				
 				<section>
 				<h3>Warm Cookies and Cold Milk Are Good For You </h3>
-				<p>Periodically, taking a break is important for maintaining the stamina for another round of productive pair programming.</p>
+				<p>Periodically, taking a break is important for maintaining the stamina for another round of productive pair programming. Getting up to get coffee, a snack, or just getting up to walk around for a few minutes can help break any mental lock or partner tension, and can also simulate the brain when tackling a difficult problem.</p>
 				</section>
 				
 				<section>
@@ -223,7 +222,7 @@
 						<li>Because the driver is not as deeply involved (not actually typing or writing up design), he can have a more objective point of view and can think more strategically about the direction of the work.</li>
 						<li>An effective pair will be constantly discussing alternative approaches and solutions to the problem. This can help them overcome difficult problems that might seem impossible when they are working alone.</li>
 						</ul>
-						<img src="images/two_heads.jpg">
+						<img height = 200 src="images/two_heads.jpg">
 						</section>
 						
 						<section>
@@ -242,14 +241,21 @@
 						<li>A quiet navigator will create a dysfunctional pair. Both programmers must be able to maintain a steady conversation.</li>
 						<li>An initial decline in productivity is sometimes observed when engineers start to pair program.</li>
 						<li>Noise from a pair can disturb others who work alone.</li>
+						</ul>
+						</section>
+						
+						<section>
+						<img src = "images/dilbert.gif">
+						<ul>
 						<li>There can be a conflict of egos or personality depending on the programmers involved. This could result in uncomfortable feelings and reduced productivity, negating the potential benefits of pair programming.</li>
+						<li>Everyone has to want to pair. Some programmers are very intrinsic and have a deep sense of personal ownership about the code they write, these feelings can be difficult to overcome at first.</li>
 					</ul>
-					<img src = "images/dilbert.gif">
+					
 				</section>
 				
 				<section>
 					<ul>
-						<li>Everyone has to want to pair. Some programmers are very intrinsic and have a deep sense of personal ownership about the code they write, these feelings can be difficult to overcome at first.</li>
+						
 						<li>Software engineers are conditioned to work alone. It may feel like they are wasting their time with slower programmers or they may feel inadequate compared to their peers. Attempting pair programming with these types of feelings can lead to a loss in the benefits offered by the practice.</li>
 						<li>Pairing an inexperienced programmer with someone more competent can result in feelings of intimidation, resulting in less participation between the two.</li>
 					</ul>
@@ -265,9 +271,10 @@
 				<section>
 					<h2>Expected Benefits</h2>
 					<ul>
-						<li>Improved product quality: pairs produce shorter programs than solo peers, indicating superior designs.Additionally, programs written by paired developers pass more test cases than those written by solo programmers.</li>
+						<li>Improved product quality: pairs produce shorter programs than solo peers, indicating superior designs.</li>
+						<li>Programs written by paired developers pass more test cases than those written by solo programmers.</li>
 						<img height = 200 src = "images/testcases.png">
-						<li>Positive effect of improved knowledge sharing. If only one person understands an area of code, the team can suffer if this person is unavailable or leaves the team. With more than one person familiar with each area of the code, that risk is reduced.</li>
+						
 						
 					</ul>
 				</section>
@@ -275,7 +282,14 @@
 				<section>
 					<img src="images/mistakes.png">
 					<ul>
+					<li>Positive effect of improved knowledge sharing. If only one person understands an area of code, the team can suffer if this person is unavailable or leaves the team. With more than one person familiar with each area of the code, that risk is reduced.</li>
 					<li>Code is more understandable: code written by the driver must be understandable by the navigator, motivating the driver to be more clear. </li>
+					</ul>
+				</section>
+				
+				<section>
+				<ul>
+				<li>Increases in discipline in the use of other prescribed practices (test-driven development, use of coding standards, frequent integration). Developers are more likely to follow the proper practices when someone else is watching. </li>
 						<li>Continuous reviews: the navigator is continually reviewing the driver’s code in real-time, leading to more effective defect removal rates</li>
 						</ul>
 						<img src = "images/cat.jpeg">
@@ -287,7 +301,7 @@
 					</ul>
 					<img src = "images/productivity.gif">
 						<ul>
-						<li>Increases in discipline in the use of other prescribed practices (test-driven development, use of coding standards, frequent integration). Developers are more likely to follow the proper practices when someone else is watching. </li>
+						
 						<li>People learn to discuss and work together, increasing team communication and effectiveness</li>
 					</ul>
 					</section>
@@ -297,7 +311,16 @@
 						<li>Despite having two programmers working on the same problem, coding can actually be faster than having only a single programmer. This is because the two developers can usually solve a problem faster together than they would alone, the increased fault-detection lowers the amount of rework and testing that needs to be done later, and the pair can usually keep each other focused on the task at hand. </li>
 						<ul>
 							<li>This means that it can actually more economical than solo programming, despite the added personnel cost.</li>
+							</ul>
+							</ul>
+						</section>
+					
+					<section>
+					<ul>
 							<li>Because managment may be opposed to the idea initially, it is possible to start pair programming practices on a small scale with only a minimal economical risk. Even on this small scale, managment can gain first-hand understanding  that the practice does not cause product lifecycle cost to increase, particularly when the benefits of improved quality are considered.</li>
+							<ul>
+							<li>The scalability of pair programming allows for company to begin to adapt it slowly, allowing developers to become to the system without shocking the entire team into a giant drop in productivity.</li>
+							</ul>
 							</ul>
 						</ul>
 						</section>
